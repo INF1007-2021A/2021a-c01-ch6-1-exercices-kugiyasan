@@ -29,7 +29,7 @@ def anagrams(words: list = None) -> bool:
 
 
 def contains_doubles(items: list) -> bool:
-    return len(items) == len(set(items))
+    return len(items) != len(set(items))
 
 
 def best_grades(student_grades: dict) -> dict:
