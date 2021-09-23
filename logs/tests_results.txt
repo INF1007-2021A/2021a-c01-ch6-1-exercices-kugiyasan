@@ -1,25 +1,10 @@
 test_anagram (__main__.TestExercice) ... ok
-test_doubles (__main__.TestExercice) ... FAIL
+test_doubles (__main__.TestExercice) ... ok
 test_frequence (__main__.TestExercice) ... ok
 test_grades (__main__.TestExercice) ... ok
 test_order (__main__.TestExercice) ... ok
 
-======================================================================
-FAIL: test_doubles (__main__.TestExercice)
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 52, in test_doubles
-    self.assertListEqual(
-AssertionError: Lists differ: [True, False] != [False, True]
+Ran 5 tests in 0.000s
 
-First differing element 0:
-True
-False
-
-- [True, False]
-+ [False, True] : Erreur dans les doublons
-
-----------------------------------------------------------------------
-Ran 5 tests in 0.001s
-
-FAILED (failures=1)
+OK
